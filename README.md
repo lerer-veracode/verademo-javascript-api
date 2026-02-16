@@ -21,9 +21,9 @@ This will install the required node modules for this application.
 ``node index.js``  
 This will run an express server on port 8000.  
   
-Also, this app requires a database that is right now setup to connect on 192.168.178.80:3306. Please refer to the overlaying group of repositories [https://github.com/veracode/verademo-app-docker](https://github.com/veracode/verademo-app-docker) how you can run the web app, the database and this API in one go using Docker images.  
+Also, this app requires a database that is right now setup to connect on 192.168.178.80:3306. Please refer to the overlaying group of repositories [https://github.com/veracode/verademo-app-docker](https://github.com/veracode/verademo-app-docker) for instructions on how to run the web app, the database, and this API in a single command using Docker images.  
   
-A few little configurations if you want to adjust.  
+A few minor configurations if you want to adjust.  
 It's configured to run on port 8000, if you want to change please change the code on ``index.js`` accordingly.  
 ```  
 app.listen(8000, () => {
