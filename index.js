@@ -35,6 +35,7 @@ app.use("/users", usersRoutes);
 app.use("/posts", postsRoutes);
 app.use("/admin", adminRoutes);
 
+console.log('starting');
 app.listen(8000, () => {
   console.log("Verademo API is ready to listen for requests");
 });
